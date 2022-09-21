@@ -11,38 +11,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,800;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header container-row between-center padding">
+    <div class="header container-row gap between-center padding">
         <div id="logo" class="bold-font">
             <a href="./index.html">LYMG</a>
         </div>
-        <div class="container-row gap">
+        <div id="gap-small" class="container-row gap">
             <a href="./pages/sike.html">money printing</a>
             <a href="./pages/sike.html">free diamonds</a>
             <a href="./pages/nuthin.html">legal rights</a>
         </div>
     </div>
-    <div id="main" class="container-row gap between-center padding">
-        <div id="main-container">
+    <div id="main" class="container-row gap wrap between-center padding">
+        <div id="main-container" class="shrink-wrap shrunk-width">
             <div id="main-text" class="bold-font">Multiply your money like never before</div>
             <div id="secondary-text">Losing money on match betting? You've come to the right place! We can help you with that task!</div>
             <button class="button border borderless" type="button"">Sign up</button>
         </div>
-        <img id="main-img" class="border center" src="./images/img-main.jpg" alt="this is an image">
+        <div id="image-cont" class="container-row shrink-wrap shrunk-width">
+            <img id="main-img" class="border center" src="./images/img-main.jpg" alt="this is an image">
+        </div>
     </div>
     <div class="margin">
         <div id="section-header" class="bold-font">Our clients state:</div>
-        <div id="images" class="container-row center">
-            <div class="">
+        <div id="images" class="container-row gap center">
+            <div>
                 <img class="image border" src="./images/img1.jpg" alt="this is an image">
-                <div class="text-center">This is wonderful! My account balance hasn't shrunk that much ever before.</div>
+                <div class="text-center section-text">This is wonderful! My account balance hasn't shrunk that much ever before.</div>
             </div>
-            <div class="">
+            <div>
                 <img class="image border"  src="./images/img2.jpg" alt="this is an image">
-                <div class="text-center">Now I can lose money without even moving my finger.</div>
+                <div class="text-center section-text">Now I can lose money without even moving my finger.</div>
             </div>
-            <div class="">
+            <div>
                 <img class="image border"  src="./images/img3.jpg" alt="this is an image">
-                <div class="text-center">I've lost almost every penny, and thats only one of upsides!</div>
+                <div class="text-center section-text">I've lost almost every penny, and thats only one of upsides!</div>
             </div>
         </div>
     </div>
@@ -50,17 +52,16 @@
         <div id="quote-main">Our mission is to take all your money and flush it in the toilet.</div>
         <div id="quote-secondary" class="bold-font">-Ching Chong, Founder of LetYourMoneyGo</div>
     </div>
-    <div id="end-section" class="container-row between-center border margin">
-        <div>
+    <div id="end-section" class="container-row between-center wrap border margin">
+        <div id="width" class="shrink-wrap shrunk-width">
             <div id="end-main">Sign in! It's never to late to start <span id="crossed">losing money</span>.</div>
             <div id="end-secondary">Sign up for our services by clicking that button right over there!</div>
         </div>
         <button class="button border" type="button">Sign up</button>
     </div>
     <div class="footer container-col center padding">
-        <div>Copyright © Maciej Sieniek</div>
-        <div>Images from Vecteezy.com and Freepik.com</div>
+        <div class="text-center">Copyright © Maciej Sieniek</div>
+        <div class="text-center">Images from Vecteezy.com and Freepik.com</div>
     </div>
-    <script src="./app.js"></script>
 </body>
 </html>
