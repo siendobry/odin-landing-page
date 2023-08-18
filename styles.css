@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+
 :root {
     --main-text: #F9FAF8;
     --secondary-text: #E5E7EB;
@@ -17,7 +20,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 body {
     margin: 0;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -35,8 +38,9 @@ a {
 button {
     margin: 8px 0;
     padding: 8px 32px;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--main-text);
     background-color: var(--cta-color);
     border: none;
@@ -59,7 +63,7 @@ button:hover {
 .logo {
     color: var(--main-text);
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .logo:hover {
@@ -168,14 +172,14 @@ button:hover {
     color: var(--dark-background);
     font-size: 36px;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .quote-signature {
     margin-top: 8px;
     margin-right: 32px;
     color: var(--dark-background);
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     align-self: flex-end;
 }
